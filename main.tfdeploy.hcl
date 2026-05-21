@@ -1,6 +1,6 @@
 deployment "simple" {
   inputs = {
-petname = upstream_input.pet_names.simple_pet
+    petname = upstream_input.pet_names.simple_pet
 aloda = upstream_input.kubernetes_names.k8s_clusters
 petname2 = upstream_input.pet_names.simple_pet2
 petname3 = upstream_input.pet_names.simple_pet3
