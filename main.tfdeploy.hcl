@@ -6,6 +6,7 @@ petname2 = upstream_input.pet_names.simple_pet2
 petname3 = upstream_input.pet_names.simple_pet3
   }
 }
+
 upstream_input "pet_names" {
   type   = "stack"
   source = "app.terraform.io/hrychlik/Default Project/stacks-test-outputs"
